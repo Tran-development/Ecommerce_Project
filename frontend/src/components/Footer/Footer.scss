@@ -1,0 +1,153 @@
+.footer {
+    background-color: #f9f9fb;
+    padding-top: 95px;
+    border-top: 1px solid #ddd;
+
+    .footer-top {
+        padding-bottom: 20px;
+
+        .container {
+            width: 100%;
+            padding: 0 15px;
+            margin: 0 auto;
+
+            .subcribe-by-email {
+                margin-bottom: 60px;
+
+                .content {
+                    
+                    .news-desc {
+                        margin-bottom: 30px;
+
+                        h3 {
+                            color: #212121;
+                            font-size: 28px;
+                            font-weight: 700;
+                            line-height: 28px;
+                            margin: 0 0 15px;
+                        }
+
+                        p {
+                            color: #757575;
+
+                        }
+                    }
+
+                    .newsletter-box {
+                        position: relative;
+
+                        .subscribe {
+                            background: #fff none repeat scroll 0 0;
+                            border: 0 none;
+                            border-radius: 5px;
+                            color: #777;
+                            display: block;
+                            font-size: 13px;
+                            height: 50px;
+                            padding: 0 166px 0 20px;
+                            width: 100%;
+                            text-transform: capitalize;
+                        }
+
+                        .submit {
+                            background: #212121 none repeat scroll 0 0;
+                            border: 0 none;
+                            border-radius: 0 5px 5px 0;
+                            -webkit-box-shadow: none;
+                            box-shadow: none;
+                            font-family: "Lato", sans-serif;
+                            color: #fff;
+                            font-size: 13px;
+                            font-weight: 900;
+                            height: 50px;
+                            line-height: 50px;
+                            padding: 0 35px;
+                            position: absolute;
+                            right: 0;
+                            text-transform: uppercase;
+                            top: 0;
+                            -webkit-transition: all 300ms ease-in 0s;
+                            transition: all 300ms ease-in 0s;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+
+            .footer-title {
+                font-size: 18px;
+                color: #212121;
+                font-weight: 600;
+                line-height: 34px;
+                margin: 0 0 15px;
+                position: relative;
+                text-transform: capitalize;
+                text-align: left;
+                padding-left: 25px;
+
+            }
+
+            .footer-list {
+                list-style: outside none none;
+                margin: 0;
+                padding-left: 25px;
+                text-align: left;
+
+                li {
+                    text-transform: capitalize;
+                    line-height: 31px;
+                    font-size: 14px;
+                    transition: all 0.5s ease-in-out 0s;
+                }
+
+                li:hover {
+                    color: #E62E04;
+                }
+            }
+
+            .address-content {
+                list-style: outside none none;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    color: #212121;
+                    display: block;
+                    font-size: 14px;
+                    line-height: 28px;
+                    margin-bottom: 5px;
+                    padding-left: 30px;
+                    position: relative;
+
+                    .item-icon {
+                        color: #777;
+                    }
+                }
+
+            }
+
+            .payment {
+                border-top: 1px solid #ddd;
+                padding-top: 30px;
+                margin-top: 25px;
+            }
+        }        
+    }
+    .footer-middle-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .social-footer {
+            width: 550px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 5px;
+            cursor: pointer;
+        }
+    }
+    .copyright-text {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+}
