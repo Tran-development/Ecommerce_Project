@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+
+    .side_bar {
+        background-color: red;
+        height: 500px;
+    }
+
+    .slider_box {
+        background-color: green;
+        margin-left: -15px;
+        padding-left: 0;
+        padding-right: 0;
+        overflow: hidden;
+
+        .slider-wrapper.theme-default {
+            position: relative;
+            height: 100%;
+            width: 100vw;
+
+            .nivoSLider {
+                position: absolute;
+                width: 300vw;
+                height: 100%;
+                display: flex;
+                transition: all 1s ease;
+                // transform: translateX(-100vw);
+
+                .link_slider {
+                    width: 100%;
+
+                    img {
+                        position: relative;
+                        width: 100vw;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                .icons {
+                    // width: fit-content;
+                    display: flex;
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    gap: 10px;
+                    bottom: 100px;
+                    margin: auto;
+                    
+                    .icon-left {
+                        left: 10px;
+                    }
+
+                    .icon-right {
+                        right: 10px;
+                    }
+
+                    .icon-left, .icon-right {
+                        width: 50px;
+                        height: 50px;
+                        border: 1px solid #999;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

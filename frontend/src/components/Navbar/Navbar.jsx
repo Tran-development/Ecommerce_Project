@@ -1,16 +1,18 @@
 import React from 'react'
 import './Navbar.scss'
 import en from '../../assets/images/en.png'
+import us from '../../assets/images/2.jpg'
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import SearchIcon from '@mui/icons-material/Search';
 import PersonIcon from '@mui/icons-material/Person';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { Link } from 'react-router-dom'
-
+import PopupBanner from '../Popup/PopupBanner'
 const Navbar = () => {
   return (
     <div className='navbarr'>
+    {/* <PopupBanner /> */}
       <div className="wrapperr">
         <div className='left'>
           <div className="item">
@@ -64,3 +66,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+

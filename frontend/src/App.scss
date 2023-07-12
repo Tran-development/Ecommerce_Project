@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&family=Poppins:wght@600&display=swap');
+
+
 body, html {
-  font-family: 'Square Peg', cursive;
+  font-family: 'Spartan', sans-serif;
 }
 
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Spartan', sans-serif;
+}
 
 .App {
   text-align: center;
@@ -10,4 +18,21 @@ body, html {
     color: inherit;
     text-decoration: none;
   }
+}
+
+:root{
+  // --icons-color: #FFDF2B;
+  // --icons-light-color: #ffdf2b57;
+  // --icons-bg-color: #FFDF2B;
+  // --shadow-dark-color: #555557;
+  // --bg-shadow-dark-color: #555557;
+  // --shadow-light-color: #232325;
+  --main-bg-color: #E62E04;
+  // --overlay: #2323255e;
+
+  // --box-shadow: 1px 1px 2px #FFDF2B,
+  // -1px -1px 2px #FFDF2B;
+
+  // --box-shadow-2:1px 1px 2px #FFDF2B,
+  // -1px -1px 2px #FFDF2B;
 }
